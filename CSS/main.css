@@ -542,4 +542,27 @@ footer .copyright {
   .skill .skill__basis__videos {
     padding: 170px 0;
   }
+
+  .work {
+    padding-top: 100px;
+}
+
+  .work .port {
+    flex-direction: column;
+    margin: 40px 0;
+  }
+  
+  .work .port .port__video,
+  .work .port .port__text {
+    width: 100%;
+  }
+
+  .work .port .port__text {
+    padding: 20px 0 0;
+  }
+
+  .work .port .btn-group {
+    margin-top: 20px;
+  }
+
 }
