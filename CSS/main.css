@@ -236,7 +236,7 @@ p {
   z-index: 15;
 } 
 
-.skill .title {padding-top:70px}
+.skill .title {padding-top:57px}
 
 .skill .skill__basis__videos {
   width: 100%;
@@ -531,4 +531,15 @@ footer .copyright {
 .copyright .this-year {
   letter-spacing: 1px;
   font-size: 14px;
+}
+
+@media screen and (max-width: 998px) {
+
+  .skill .title {
+    padding-top: 57px;
+}
+
+  .skill .skill__basis__videos {
+    padding: 170px 0;
+  }
 }
